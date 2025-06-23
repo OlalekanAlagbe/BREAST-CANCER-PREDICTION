@@ -1,0 +1,44 @@
+Model: Logistic Regression
+Accuracy: 0.9649
+ROC-AUC: 0.9967
+Classification Report:
+              precision    recall  f1-score     support
+0              0.953488  0.953488  0.953488   43.000000
+1              0.971831  0.971831  0.971831   71.000000
+accuracy       0.964912  0.964912  0.964912    0.964912
+macro avg      0.962660  0.962660  0.962660  114.000000
+weighted avg   0.964912  0.964912  0.964912  114.000000
+
+Model: Decision Tree
+Accuracy: 0.9298
+ROC-AUC: 0.9253
+Classification Report:
+              precision    recall  f1-score     support
+0              0.906977  0.906977  0.906977   43.000000
+1              0.943662  0.943662  0.943662   71.000000
+accuracy       0.929825  0.929825  0.929825    0.929825
+macro avg      0.925319  0.925319  0.925319  114.000000
+weighted avg   0.929825  0.929825  0.929825  114.000000
+
+Model: Random Forest
+Accuracy: 0.9474
+ROC-AUC: 0.9903
+Classification Report:
+              precision    recall  f1-score     support
+0              0.951220  0.906977  0.928571   43.000000
+1              0.945205  0.971831  0.958333   71.000000
+accuracy       0.947368  0.947368  0.947368    0.947368
+macro avg      0.948212  0.939404  0.943452  114.000000
+weighted avg   0.947474  0.947368  0.947107  114.000000
+
+Model: SVM
+Accuracy: 0.9561
+ROC-AUC: 0.9925
+Classification Report:
+              precision    recall  f1-score    support
+0              0.952381  0.930233  0.941176   43.00000
+1              0.958333  0.971831  0.965035   71.00000
+accuracy       0.956140  0.956140  0.956140    0.95614
+macro avg      0.955357  0.951032  0.953106  114.00000
+weighted avg   0.956088  0.956140  0.956036  114.00000
+
